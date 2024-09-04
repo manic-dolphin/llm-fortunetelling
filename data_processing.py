@@ -27,6 +27,6 @@ def main(dictionary):
     return df
 
 if __name__ == "__main__":
-    df = main("data\\raw_data")
+    # df = main("data\\raw_data")
     df = pd.read_csv("output.csv")
     print(df.head())
